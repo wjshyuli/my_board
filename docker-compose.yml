@@ -1,0 +1,8 @@
+services:
+
+  f4:
+    build: ./f4
+    ports:
+      - "8090:8000"
+    container_name: f4
+    restart: unless-stopped
