@@ -16,7 +16,7 @@ from get_data import (
 
 
 # =========================
-# 日志
+# 日 志
 # =========================
 
 logging.basicConfig(
