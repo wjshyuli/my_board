@@ -195,7 +195,7 @@ templates = Jinja2Templates(directory="templates")
 # 页面 1：Building
 # =========================
 
-@app.get("/page1")
+@app.get("/f4/page1")
 def page1(request: Request):
 
     return templates.TemplateResponse(
@@ -213,7 +213,7 @@ def page1(request: Request):
 # 页面 2：Curing
 # =========================
 
-@app.get("/page2")
+@app.get("/f4/page2")
 def page2(request: Request):
 
     return templates.TemplateResponse(
@@ -231,7 +231,7 @@ def page2(request: Request):
 # 页面 3：Semi
 # =========================
 
-@app.get("/page3")
+@app.get("/f4/page3")
 def page3(request: Request):
 
     return templates.TemplateResponse(
